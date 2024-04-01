@@ -1,0 +1,33 @@
+{
+  "name": "iustotempore",
+  "version": "1.0.0",
+  "description": "Shareable semantic-release configuration for NPM packages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrystelArmstrong/iustotempore.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "vel",
+    "semantic-release",
+    "qui"
+  ],
+  "author": "AileenFerry",
+  "license": "SEE LICENSE IN RADIX-SOFTWARE-EULA",
+  "bugs": {
+    "url": "https://github.com/CrystelArmstrong/iustotempore.git/issues"
+  },
+  "release": {
+    "extends": "./index.js"
+  },
+  "homepage": "https://github.com/CrystelArmstrong/iustotempore.git",
+  "devDependencies": {
+    "semantic-release": "^23.0.0",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@saithodev/semantic-release-backmerge": "^3.2.1"
+  }
+}
